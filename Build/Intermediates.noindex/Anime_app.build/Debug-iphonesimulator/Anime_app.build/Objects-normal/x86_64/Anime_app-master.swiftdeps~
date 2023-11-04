@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "e96d2119bc69f535f0c5ad4dfeb9aedbb09fde719439121fa113f24149d2006d"
+build_start_time: [1699128171, 995656000]
+build_end_time: [1699128172, 239544000]
+inputs:
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/AppDelegate.swift": !private [1699126321, 381285521]
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/ContentView.swift": !private [1699128164, 231771999]
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Document.swift": !private [1699126321, 407542032]
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/DocumentBrowserViewController.swift": !private [1699126321, 394407851]
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/DocumentViewController.swift": !private [1699126321, 400952539]
+  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Views/View_main.swift": !private [1699127963, 803739872]
