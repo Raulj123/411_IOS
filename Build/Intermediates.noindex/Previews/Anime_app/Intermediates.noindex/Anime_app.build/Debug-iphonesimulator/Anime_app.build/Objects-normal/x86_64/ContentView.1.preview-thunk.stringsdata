@@ -5,6 +5,14 @@
       {
         "comment": "",
         "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Search"
+      },
+      {
+        "comment": "",
+        "key": "Edit"
       }
     ]
   },

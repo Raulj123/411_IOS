@@ -15,6 +15,17 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
+            ViewB()
+                .tabItem() {
+                    Image(systemName: "magnifyingglass.circle.fill")
+                    Text("Search")
+                }
+            ViewA()
+                .tabItem() {
+                    Image(systemName: "slider.horizontal.3")
+                    Text("Edit")
+                }
+            
         }
     }
 }

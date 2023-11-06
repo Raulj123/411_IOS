@@ -4,7 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "hello"
+        "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Search"
       }
     ]
   },

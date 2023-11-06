@@ -1,8 +1,6 @@
 {
   "buildCommand" : {
-    "command" : "build",
-    "skipDependencies" : false,
-    "style" : "buildAndRun"
+    "command" : "preview"
   },
   "configuredTargets" : [
     {
@@ -10,7 +8,7 @@
     }
   ],
   "containerPath" : "/Users/rauljarquin/Desktop/Anime_app/Anime_app.xcodeproj",
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
@@ -43,7 +41,6 @@
           "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.4",
           "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,2",
           "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
-          "ENABLE_PREVIEWS" : "NO",
           "TARGET_DEVICE_IDENTIFIER" : "E78662AE-5D28-4D7E-8C7B-051EAC53144C",
           "TARGET_DEVICE_MODEL" : "iPhone15,2",
           "TARGET_DEVICE_OS_VERSION" : "16.4",

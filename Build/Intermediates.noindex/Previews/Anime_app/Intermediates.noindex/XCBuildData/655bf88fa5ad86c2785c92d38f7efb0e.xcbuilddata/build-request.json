@@ -1,8 +1,6 @@
 {
   "buildCommand" : {
-    "command" : "build",
-    "skipDependencies" : false,
-    "style" : "buildAndRun"
+    "command" : "preview"
   },
   "configuredTargets" : [
     {
@@ -10,7 +8,7 @@
     }
   ],
   "containerPath" : "/Users/rauljarquin/Desktop/Anime_app/Anime_app.xcodeproj",
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
@@ -39,15 +37,10 @@
     "overrides" : {
       "synthesized" : {
         "table" : {
-          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,7",
-          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.4",
-          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,7",
-          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
-          "ENABLE_PREVIEWS" : "NO",
-          "TARGET_DEVICE_IDENTIFIER" : "6C630D7C-D34E-4E4D-9B48-1C9E9C46E8F2",
-          "TARGET_DEVICE_MODEL" : "iPhone14,7",
-          "TARGET_DEVICE_OS_VERSION" : "16.4",
-          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+          "DSTROOT" : "/Users/rauljarquin/Desktop/Anime_app/Build/Intermediates.noindex/Previews/Anime_app/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/rauljarquin/Desktop/Anime_app/Build/Intermediates.noindex/Previews/Anime_app/Intermediates.noindex",
+          "SYMROOT" : "/Users/rauljarquin/Desktop/Anime_app/Build/Intermediates.noindex/Previews/Anime_app/Products"
         }
       }
     }

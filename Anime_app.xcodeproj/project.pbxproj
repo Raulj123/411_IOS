@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15C5A062AF8775D00A60597 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C5A052AF8775D00A60597 /* ViewA.swift */; };
+		B15C5A082AF8778700A60597 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C5A072AF8778700A60597 /* ViewB.swift */; };
 		B1BC3FF12AF6D3B100B688AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC3FF02AF6D3B100B688AB /* AppDelegate.swift */; };
 		B1BC3FF32AF6D3B100B688AB /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC3FF22AF6D3B100B688AB /* DocumentBrowserViewController.swift */; };
 		B1BC3FF52AF6D3B100B688AB /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC3FF42AF6D3B100B688AB /* DocumentViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B15C5A052AF8775D00A60597 /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		B15C5A072AF8778700A60597 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
 		B1BC3FED2AF6D3B100B688AB /* Anime_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anime_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BC3FF02AF6D3B100B688AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1BC3FF22AF6D3B100B688AB /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				B1BC40252AF6D9A800B688AB /* View_main.swift */,
+				B15C5A052AF8775D00A60597 /* ViewA.swift */,
+				B15C5A072AF8778700A60597 /* ViewB.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			files = (
 				B1BC3FF72AF6D3B100B688AB /* Document.swift in Sources */,
 				B1BC40232AF6D8B500B688AB /* ContentView.swift in Sources */,
+				B15C5A062AF8775D00A60597 /* ViewA.swift in Sources */,
+				B15C5A082AF8778700A60597 /* ViewB.swift in Sources */,
 				B1BC3FF52AF6D3B100B688AB /* DocumentViewController.swift in Sources */,
 				B1BC3FF32AF6D3B100B688AB /* DocumentBrowserViewController.swift in Sources */,
 				B1BC3FF12AF6D3B100B688AB /* AppDelegate.swift in Sources */,

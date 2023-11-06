@@ -16,9 +16,9 @@ extension View_main {
         #sourceLocation(file: "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Views/View_main.swift", line: 12)
         ZStack {
             Color.blue
-            Image(systemName: __designTimeString("#10094.[1].[0].property.[0].[0].arg[0].value.[1].arg[0].value", fallback: "house.fill"))
+            Image(systemName: __designTimeString("#9608.[1].[0].property.[0].[0].arg[0].value.[1].arg[0].value", fallback: "house.fill"))
                 .foregroundColor(Color.white)
-                .font(.system(size: __designTimeFloat("#10094.[1].[0].property.[0].[0].arg[0].value.[1].modifier[1].arg[0].value.arg[0].value", fallback: 100.0)))
+                .font(.system(size: __designTimeFloat("#9608.[1].[0].property.[0].[0].arg[0].value.[1].modifier[1].arg[0].value.arg[0].value", fallback: 100.0)))
          
             
         }
