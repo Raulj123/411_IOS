@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct View_main: View {
+    @StateObject var animeVM = AnimeModel()
     var body: some View {
         ZStack {
             Color.blue
             Image(systemName: "house.fill")
                 .foregroundColor(Color.white)
                 .font(.system(size: 100.0))
-         
+                .task {
+                    await animeVM.getData()
+                }
             
         }
     }

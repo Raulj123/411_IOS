@@ -1,10 +1,18 @@
 {
-  "source": "/Users/rauljarquin/Desktop/Anime_app/Anime_app/ContentView.swift",
+  "source": "/Users/rauljarquin/Desktop/411_IOS/Anime_app/ContentView.swift",
   "tables": {
     "Localizable": [
       {
         "comment": "",
-        "key": "hello"
+        "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Search"
+      },
+      {
+        "comment": "",
+        "key": "Edit"
       }
     ]
   },

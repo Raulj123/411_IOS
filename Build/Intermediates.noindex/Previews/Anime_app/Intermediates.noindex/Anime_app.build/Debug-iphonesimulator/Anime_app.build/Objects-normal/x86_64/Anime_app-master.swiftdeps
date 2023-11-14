@@ -1,13 +1,14 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
-options: "aee39303f2261807f73b7c62c58e6c11dadbafa00bef4bc7656cf2296799c871"
-build_start_time: [1699234369, 82167000]
-build_end_time: [1699234371, 537447000]
+options: "5e57aa33f89b79d0e5c539fe2171ff2821f41d6009ec7d26a7311b1cceb3e3c7"
+build_start_time: [1699989661, 777135000]
+build_end_time: [1699989665, 454958000]
 inputs:
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/AppDelegate.swift": [1699131776, 49713913]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/ContentView.swift": [1699234367, 557841670]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Document.swift": [1699131776, 61385087]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/DocumentBrowserViewController.swift": [1699131776, 62630873]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/DocumentViewController.swift": [1699131776, 63524759]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Views/ViewA.swift": [1699234139, 361735785]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Views/ViewB.swift": [1699234301, 747339182]
-  "/Users/rauljarquin/Desktop/Anime_app/Anime_app/Views/View_main.swift": [1699131776, 65045811]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/AppDelegate.swift": [1699944982, 764776085]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/ContentView.swift": [1699944982, 766316166]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Document.swift": [1699944982, 766456207]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/DocumentBrowserViewController.swift": [1699944982, 766620257]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/DocumentViewController.swift": [1699944982, 766769530]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Model/AnimeViewModel.swift": [1699989661, 307259278]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/ViewA.swift": [1699944982, 767270192]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/ViewB.swift": [1699944982, 767422833]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift": [1699946381, 575918687]
