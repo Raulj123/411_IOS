@@ -17,18 +17,18 @@ extension ContentView {
         TabView  {
             View_main()
                 .tabItem() {
-                    Image(systemName: __designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].arg[0].value", fallback: "house.fill"))
-                    Text(__designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Home"))
+                    Image(systemName: __designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[0].arg[0].value", fallback: "house.fill"))
+                    Text(__designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Home"))
                 }
             ViewB()
                 .tabItem() {
-                    Image(systemName: __designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[0].arg[0].value", fallback: "magnifyingglass.circle.fill"))
-                    Text(__designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Search"))
+                    Image(systemName: __designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[0].arg[0].value", fallback: "magnifyingglass.circle.fill"))
+                    Text(__designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Search"))
                 }
             ViewA()
                 .tabItem() {
-                    Image(systemName: __designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value.[0].arg[0].value", fallback: "slider.horizontal.3"))
-                    Text(__designTimeString("#5109.[1].[0].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Edit"))
+                    Image(systemName: __designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value.[0].arg[0].value", fallback: "slider.horizontal.3"))
+                    Text(__designTimeString("#6081.[1].[0].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value.[1].arg[0].value", fallback: "Edit"))
                 }
             
         }
