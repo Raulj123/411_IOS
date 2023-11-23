@@ -1,5 +1,20 @@
 {
   "source": "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Previews/Anime_app/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/View_main.1.preview-thunk.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Animes"
+      },
+      {
+        "comment": "",
+        "key": "Synopsis: %@"
+      },
+      {
+        "comment": "",
+        "key": "Rating: %@"
+      }
+    ]
+  },
   "version": 1
 }

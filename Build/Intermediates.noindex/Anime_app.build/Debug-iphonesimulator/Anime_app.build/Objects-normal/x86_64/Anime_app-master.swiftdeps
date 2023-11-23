@@ -1,14 +1,14 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "04166aeff58001db7ee39b40d51c1caad798c2f51c540d90ad36338ad9c9e707"
-build_start_time: [1700028596, 50543000]
-build_end_time: [1700028601, 583682000]
+build_start_time: [1700288536, 398121000]
+build_end_time: [1700288566, 981397000]
 inputs:
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/AppDelegate.swift": [1699944982, 764776085]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/ContentView.swift": [1699944982, 766316166]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Document.swift": [1699944982, 766456207]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/DocumentBrowserViewController.swift": [1699944982, 766620257]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/DocumentViewController.swift": [1699944982, 766769530]
-  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Model/AnimeViewModel.swift": [1700028592, 62619860]
+  "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Model/AnimeViewModel.swift": [1700287507, 487289501]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/ViewA.swift": [1699944982, 767270192]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/ViewB.swift": [1699944982, 767422833]
   "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift": [1699946381, 575918687]

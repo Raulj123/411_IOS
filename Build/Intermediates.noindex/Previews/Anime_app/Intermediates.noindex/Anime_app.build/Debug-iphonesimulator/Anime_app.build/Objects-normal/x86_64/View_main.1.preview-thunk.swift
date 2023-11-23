@@ -4,7 +4,7 @@ import SwiftUI
 
 extension View_main_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift", line: 28)
+        #sourceLocation(file: "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift", line: 35)
         View_main()
     
 #sourceLocation()
@@ -14,15 +14,22 @@ extension View_main_Previews {
 extension View_main {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift", line: 13)
-        ZStack {
-            Color.blue
-            Image(systemName: __designTimeString("#2012.[1].[1].property.[0].[0].arg[0].value.[1].arg[0].value", fallback: "house.fill"))
-                .foregroundColor(Color.white)
-                .font(.system(size: __designTimeFloat("#2012.[1].[1].property.[0].[0].arg[0].value.[1].modifier[1].arg[0].value.arg[0].value", fallback: 100.0)))
-                .task {
-                    await animeVM.getData()
-                }
-            
+        NavigationStack {
+            List(animeVM.dataArray, id: \.self) { anime in
+                           VStack(alignment: .leading) {
+                               Text(anime.attributes.slug)
+                                   .font(.headline)
+                               Text("Synopsis: \(anime.attributes.synopsis)")
+                                   .font(.subheadline)
+                               Text("Rating: \(anime.attributes.averageRating)")
+                                   .font(.subheadline)
+                           }
+                       }
+                       .listStyle(.plain)
+                       .navigationTitle(__designTimeString("#3894.[1].[1].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value", fallback: "Animes"))
+                   }
+        .task {
+            await animeVM.getData()
         }
     
 #sourceLocation()

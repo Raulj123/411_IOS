@@ -13,24 +13,25 @@ class AnimeModel: ObservableObject {
         var data: [AnimeData]
     }
     
-    struct AnimeData: Codable {
+    struct AnimeData: Codable, Hashable {
         var attributes: AnimeAtt
     }
     
-    struct AnimeAtt: Codable {
+    struct AnimeAtt: Codable, Hashable {
         var slug: String
         var averageRating: String
         var synopsis: String
         var posterImage: AnimeImg
     }
     
-    struct AnimeImg: Codable {
+    struct AnimeImg: Codable, Hashable{
         var original: String
     }
 
 
-    var urlString = "https://kitsu.io/api/edge/trending/anime"
-
+    @Published var urlString = "https://kitsu.io/api/edge/trending/anime"
+    @Published var dataArray: [AnimeData] = []
+    
     func getData() async {
         print("🕸️ Accessing url \(urlString)")
         // convert usrlString to a special URL type
@@ -48,6 +49,8 @@ class AnimeModel: ObservableObject {
                 print("😡 JSON ERROR: could not decode data")
                 return
             }
+            self.dataArray = returned.data
+            
             for anime in returned.data {
                 let slug = anime.attributes.slug
                 let avg = anime.attributes.averageRating

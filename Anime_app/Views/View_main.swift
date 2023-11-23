@@ -10,15 +10,22 @@ import SwiftUI
 struct View_main: View {
     @StateObject var animeVM = AnimeModel()
     var body: some View {
-        ZStack {
-            Color.blue
-            Image(systemName: "house.fill")
-                .foregroundColor(Color.white)
-                .font(.system(size: 100.0))
-                .task {
-                    await animeVM.getData()
-                }
-            
+        NavigationStack {
+            List(animeVM.dataArray, id: \.self) { anime in
+                           VStack(alignment: .leading) {
+                               Text(anime.attributes.slug)
+                                   .font(.headline)
+                               Text("Synopsis: \(anime.attributes.synopsis)")
+                                   .font(.subheadline)
+                               Text("Rating: \(anime.attributes.averageRating)")
+                                   .font(.subheadline)
+                           }
+                       }
+                       .listStyle(.plain)
+                       .navigationTitle("Animes")
+                   }
+        .task {
+            await animeVM.getData()
         }
     }
 }
