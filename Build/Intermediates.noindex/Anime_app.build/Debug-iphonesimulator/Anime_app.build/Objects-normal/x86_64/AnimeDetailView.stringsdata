@@ -1,0 +1,16 @@
+{
+  "source": "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/AnimeDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Rating: %@"
+      },
+      {
+        "comment": "",
+        "key": "Synopsis: %@"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -15,6 +15,7 @@ class AnimeModel: ObservableObject {
     
     struct AnimeData: Codable, Hashable {
         var attributes: AnimeAtt
+        var relationships: StreamingInfo
     }
     
     struct AnimeAtt: Codable, Hashable {
@@ -27,7 +28,18 @@ class AnimeModel: ObservableObject {
     struct AnimeImg: Codable, Hashable{
         var original: String
     }
+    
+    struct StreamingInfo: Codable, Hashable {
+        var streamingLinks: Links
+    }
 
+    struct Links: Codable, Hashable {
+        var links: MoreLinks
+    }
+
+    struct MoreLinks: Codable, Hashable {
+        var related: String
+    }
 
     @Published var urlString = "https://kitsu.io/api/edge/trending/anime"
     @Published var dataArray: [AnimeData] = []
@@ -50,12 +62,13 @@ class AnimeModel: ObservableObject {
                 return
             }
             self.dataArray = returned.data
-            
+            print(returned.data)
             for anime in returned.data {
                 let slug = anime.attributes.slug
                 let avg = anime.attributes.averageRating
                 let img = anime.attributes.posterImage.original
-                print("😎 slug: \(slug) avg rating: \(avg) Img: \(img) ")
+//                let related = anime.attributes.realationships.streamingLinks.links.related
+                print("😎 slug: \(slug) avg rating: \(avg) Img: \(img) SELF: ")
             }
         } catch {
             print("😡 Could not get data from \(urlString) Error: \(error)")

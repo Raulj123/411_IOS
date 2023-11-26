@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let defaultAnime: AnimeModel.AnimeData = AnimeModel.AnimeData(
+        attributes: AnimeModel.AnimeAtt(
+            slug: "Slug with Relationships",
+            averageRating: "5.0",
+            synopsis: "Synopsis with Relationships",
+            posterImage: AnimeModel.AnimeImg(original: "url_with_relationships")
+        ),
+        relationships: AnimeModel.StreamingInfo(streamingLinks: AnimeModel.Links(links: AnimeModel.MoreLinks(related: "blah")))    )
     var body: some View {
         TabView  {
             View_main()
@@ -20,7 +28,7 @@ struct ContentView: View {
                     Image(systemName: "magnifyingglass.circle.fill")
                     Text("Search")
                 }
-            ViewA()
+            AnimeDetailView(anime: defaultAnime)
                 .tabItem() {
                     Image(systemName: "slider.horizontal.3")
                     Text("Edit")

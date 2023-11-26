@@ -11,24 +11,40 @@ struct View_main: View {
     @StateObject var animeVM = AnimeModel()
     var body: some View {
         NavigationStack {
-            List(animeVM.dataArray, id: \.self) { anime in
-                           VStack(alignment: .leading) {
-                               Text(anime.attributes.slug)
-                                   .font(.headline)
-                               Text("Synopsis: \(anime.attributes.synopsis)")
-                                   .font(.subheadline)
-                               Text("Rating: \(anime.attributes.averageRating)")
-                                   .font(.subheadline)
+                   ScrollView {
+                       LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                           ForEach(animeVM.dataArray, id: \.self) { anime in
+                               NavigationLink(destination: AnimeDetailView(anime: anime)) {
+                                   VStack {
+                                       AsyncImage(url: URL(string: anime.attributes.posterImage.original)) { image in
+                                           image.resizable()
+                                               .aspectRatio(contentMode: .fit)
+                                       } placeholder: {
+                                           
+                                           ProgressView()
+                                       }
+                                       .frame(height: 150)
+                                       Text(anime.attributes.slug)
+                                           .font(.headline)
+                                           .multilineTextAlignment(.center)
+                                           .padding(.top, 8)
+                                   }
+                                   .padding()
+                                   .background(Color.white)
+                                   .cornerRadius(10)
+                                   .shadow(radius: 5)
+                               }
                            }
                        }
-                       .listStyle(.plain)
-                       .navigationTitle("Animes")
+                       .padding()
                    }
-        .task {
-            await animeVM.getData()
-        }
-    }
-}
+                   .navigationTitle("Animes")
+               }
+               .task {
+                   await animeVM.getData()
+               }
+           }
+       }
 
 struct View_main_Previews: PreviewProvider {
     static var previews: some View {

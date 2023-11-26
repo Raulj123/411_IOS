@@ -5,14 +5,6 @@
       {
         "comment": "",
         "key": "Animes"
-      },
-      {
-        "comment": "",
-        "key": "Synopsis: %@"
-      },
-      {
-        "comment": "",
-        "key": "Rating: %@"
       }
     ]
   },

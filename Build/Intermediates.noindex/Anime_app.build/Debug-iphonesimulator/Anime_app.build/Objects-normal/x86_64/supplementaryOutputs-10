@@ -1,0 +1,15 @@
+"/Users/rauljarquin/Desktop/411_IOS/Anime_app/ContentView.swift":
+  diagnostics: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/ContentView.dia"
+  object: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/ContentView.o"
+  swift-dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/ContentView.swiftdeps"
+  dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/ContentView.d"
+"/Users/rauljarquin/Desktop/411_IOS/Anime_app/Document.swift":
+  object: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/Document.o"
+  diagnostics: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/Document.dia"
+  dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/Document.d"
+  swift-dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/Document.swiftdeps"
+"/Users/rauljarquin/Desktop/411_IOS/Anime_app/Model/AnimeViewModel.swift":
+  diagnostics: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/AnimeViewModel.dia"
+  object: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/AnimeViewModel.o"
+  dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/AnimeViewModel.d"
+  swift-dependencies: "/Users/rauljarquin/Desktop/411_IOS/Build/Intermediates.noindex/Anime_app.build/Debug-iphonesimulator/Anime_app.build/Objects-normal/x86_64/AnimeViewModel.swiftdeps"
