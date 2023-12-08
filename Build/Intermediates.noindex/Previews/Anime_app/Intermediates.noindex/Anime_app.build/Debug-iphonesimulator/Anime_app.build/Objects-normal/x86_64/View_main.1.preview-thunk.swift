@@ -16,7 +16,7 @@ extension View_main {
         #sourceLocation(file: "/Users/rauljarquin/Desktop/411_IOS/Anime_app/Views/View_main.swift", line: 13)
         NavigationStack {
                    ScrollView {
-                       LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: __designTimeInteger("#6421.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[1].value", fallback: 16)) {
+                       LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: __designTimeInteger("#1654.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[1].value", fallback: 16)) {
                            ForEach(animeVM.dataArray, id: \.self) { anime in
                                NavigationLink(destination: AnimeDetailView(anime: anime)) {
                                    VStack {
@@ -27,22 +27,22 @@ extension View_main {
                                            
                                            ProgressView()
                                        }
-                                       .frame(height: __designTimeInteger("#6421.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: 150))
+                                       .frame(height: __designTimeInteger("#1654.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: 150))
                                        Text(anime.attributes.slug)
                                            .font(.headline)
                                            .multilineTextAlignment(.center)
-                                           .padding(.top, __designTimeInteger("#6421.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].arg[0].value.[1].modifier[2].arg[1].value", fallback: 8))
+                                           .padding(.top, __designTimeInteger("#1654.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].arg[0].value.[1].modifier[2].arg[1].value", fallback: 8))
                                    }
                                    .padding()
                                    .background(Color.white)
-                                   .cornerRadius(__designTimeInteger("#6421.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 10))
-                                   .shadow(radius: __designTimeInteger("#6421.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[3].arg[0].value", fallback: 5))
+                                   .cornerRadius(__designTimeInteger("#1654.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 10))
+                                   .shadow(radius: __designTimeInteger("#1654.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[2].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[3].arg[0].value", fallback: 5))
                                }
                            }
                        }
                        .padding()
                    }
-                   .navigationTitle(__designTimeString("#6421.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: "Animes"))
+                   .navigationTitle(__designTimeString("#1654.[1].[1].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: "Animes"))
                }
                .task {
                    await animeVM.getData()

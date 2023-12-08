@@ -9,8 +9,13 @@ import SwiftUI
 
 struct AnimeDetailView: View {
     let anime: AnimeModel.AnimeData
+    private var urlString: String {
+           anime.relationships.streamingLinks.links.related
+       }
     @State private var isSynopsisExpanded = false
-
+    private var url: URL? {
+            URL(string: urlString)
+        }
     var body: some View {
         NavigationView {
             ZStack {
@@ -55,10 +60,17 @@ struct AnimeDetailView: View {
                                     }
                                 }
 
-                            // Display the relationship detail from attributes
-                            Text("Related: \(anime.relationships.streamingLinks.links.related)")
-                                .padding()
-                                .multilineTextAlignment(.center)
+//                            if let url = url {
+//                                                // Safely unwrap the URL
+//                                                guard let validURL = URL(string: urlString) else {
+//                                                    // Handle the case where the URL is invalid
+//                                                    Text("Invalid URL")
+//                                                }
+//
+//                                                // Now you can use 'validURL' in your code
+//                                                // For example, you can use it in a network request
+//                                                // ...
+//                                            }
 
                         }
                         .frame(width: geometry.size.width, alignment: .top)
