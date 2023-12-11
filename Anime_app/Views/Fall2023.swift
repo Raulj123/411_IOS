@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Fall2023: View {
-            var animes: [Anime] = AnimeLists.Winter2023
+            var animes: [Anime] = AnimeLists.Fall2023
             
             var body: some View {
                 NavigationView {
